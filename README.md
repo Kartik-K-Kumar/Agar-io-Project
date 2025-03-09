@@ -1,14 +1,6 @@
 
-*
-
-       _                   __                                          _                  _____           _           _   
-      | |                 / _|                   /\                   (_)                |  __ \         (_)         | |  
-      | | __ ___   ____ _| |___  __  ______     /  \   __ _  __ _ _ __ _  ___    ______  | |__) | __ ___  _  ___  ___| |_ 
-  _   | |/ _` \ \ / / _` |  _\ \/ / |______|   / /\ \ / _` |/ _` | '__| |/ _ \  |______| |  ___/ '__/ _ \| |/ _ \/ __| __|
- | |__| | (_| |\ V / (_| | |  >  <            / ____ \ (_| | (_| | |_ | | (_) |          | |   | | | (_) | |  __/ (__| |_ 
-  \____/ \__,_| \_/ \__,_|_| /_/\_\          /_/    \_\__, |\__,_|_(_)|_|\___/           |_|   |_|  \___/| |\___|\___|\__|
-                                                       __/ |                                            _/ |              
-                                                      |___/                                            |__/               
+WELCOME TO THE JAVAFX AGAR.IO (javafx) MADE BY KARTIK USING JAVAFX
+     
 This project uses java-fx to create a game called Agar.io.
 Agar.io[a] is a massive multiplayer online action game created by Brazilian developer Matheus Valadares. Players control one or more circular cells in a map representing a Petri dish. 
 The goal is to gain as much mass as possible by eating cells and player cells smaller than the player's cell while avoiding larger ones which can eat the player's cells. 
