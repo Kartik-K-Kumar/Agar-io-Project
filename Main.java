@@ -18,7 +18,8 @@ public class Main extends Application {
         Group root = new Group();
 
 
-        Sprite sprite = new Sprite(150.0, 150.0, 80.0);
+        Sprite sprite = new Sprite(500.0, 350.0, 80.0);
+        Food food = new Food(5);
 
         Circle spritecircle = sprite.createCircle();
 
@@ -33,13 +34,19 @@ public class Main extends Application {
             spritecircle.setCenterY(mouseY);
         });
 
-        root.getChildren().addAll(spritecircle);
+        root.getChildren().add(spritecircle);
+        root.getChildren().add(food);
+
         Scene scene = new Scene(root, 1000, 700);
 
         stage.setScene(scene);
 
         stage.show();
     }
+
+    /*Collision Detection*/
+    /*Run through array each animation tick then see if there is an item that is within the intersect*/
+
 
     public static void main(String[] args) {
         launch(args);
