@@ -1,7 +1,7 @@
 package org.example;
 import javafx.scene.shape.Circle;
 
-public class Sprite {
+public class Sprite{
     private double xCo;
     private double yCo;
     private double radius;
@@ -13,7 +13,8 @@ public class Sprite {
 
     public Circle createCircle() {
         Circle spriteCircle = new Circle(xCo, yCo, radius);
-        spriteCircle.setFill(javafx.scene.paint.Color.BLUE);
+        spriteCircle.setFill(javafx.scene.paint.Color.BLACK);
+        spriteCircle.setViewOrder(0);
         return spriteCircle;
     }
 
@@ -44,3 +45,4 @@ public class Sprite {
     }
 
 }
+
